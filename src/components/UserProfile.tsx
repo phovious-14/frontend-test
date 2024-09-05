@@ -1,10 +1,16 @@
+"use client"
 
+import Image from "next/image";
 
 export default function UserProfile() {
     return (
         <div className="relative flex flex-col p-4 w-full md:px-12 -mt-16 md:-mt-32 z-10">
             <div className="flex justify-between items-center">
-            <img src={"https://s3-alpha-sig.figma.com/img/362f/aee1/b30b14dca7e1a3c8ee71c72207545784?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kjaus88Fs3-rInmq6A2Ifk2J~elCon62cx1EuggLR-JAZRIYccbYLX~I2UyNfrAPBiWzjO291JNuxRGGKoIt0JWUtt58CRXGrsTumSqjAE-K9~mS0xL~u1q5YYnElcAhJiGOaAOqeW~SDbWEeOsTyuww8~OWh0reuRyboOx6VybkaoRhPvTABfqma0T7n-Vj5xUXxFR4rSKbDsWCnI9ry00SdxFN1GaDKgA~16bKsOqOAktDxBlzCZQJ5jU5N~lq597UTpOJmiv0YHF0FMAW4U2UbAq3c4AQwVF989niVNYTYs5OQwENRiMkdqJqzxrtXIJntovf7QKnMNz-nTEheg__"} alt=""
+            <Image src={"https://s3-alpha-sig.figma.com/img/362f/aee1/b30b14dca7e1a3c8ee71c72207545784?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kjaus88Fs3-rInmq6A2Ifk2J~elCon62cx1EuggLR-JAZRIYccbYLX~I2UyNfrAPBiWzjO291JNuxRGGKoIt0JWUtt58CRXGrsTumSqjAE-K9~mS0xL~u1q5YYnElcAhJiGOaAOqeW~SDbWEeOsTyuww8~OWh0reuRyboOx6VybkaoRhPvTABfqma0T7n-Vj5xUXxFR4rSKbDsWCnI9ry00SdxFN1GaDKgA~16bKsOqOAktDxBlzCZQJ5jU5N~lq597UTpOJmiv0YHF0FMAW4U2UbAq3c4AQwVF989niVNYTYs5OQwENRiMkdqJqzxrtXIJntovf7QKnMNz-nTEheg__"}
+              width={0}
+              height={0}
+              alt=""
+              sizes="100vw"
               className="rounded-full w-[100px] md:w-[200px]"
             />
             <div className="flex space-x-4 mt-12 md:mt-20">
